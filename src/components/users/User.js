@@ -72,7 +72,7 @@ const User = ({ user, loading, getUser, getUserRepos, repos, match }) => {
             <li>
               {company && (
                 <Fragment>
-                  <strong>: </strong> {company}
+                  <strong>Company: </strong> {company}
                 </Fragment>
               )}
             </li>
